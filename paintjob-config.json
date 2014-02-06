@@ -1,0 +1,49 @@
+{
+	"icon_class" : "icon-code",
+	"icon_color" : "purple",
+
+	"runnable_code_blocks" : true,
+	"show_html_example"    : true,
+	"scripts"              : ["dom.js"],
+
+	"local" : {
+		"user"        : "stolksdorf",
+		"repo"        : "Domjs",
+		"name"        : "Domjs",
+		"description" : "This is just some sample text for when I'm local testing"
+	},
+
+	"icons" : [
+		{
+			"icon_class" : "icon-github",
+			"color"      : "blue",
+			"link"       : "https://github.com/stolksdorf/Domjs",
+			"tooltip"    : "View on Github"
+		},
+		{
+			"icon_class" : "icon-code-fork",
+			"color"      : "green",
+			"link"       : "https://github.com/stolksdorf/Domjs/fork",
+			"tooltip"    : "Fork on Github"
+		},/*
+		{
+			"icon_class" : "icon-code",
+			"color"      : "steel",
+			"link"       : "https://raw.github.com/stolksdorf/Paintjob/master/paintjob.local.html",
+			"tooltip"    : "View Raw"
+		},
+		{
+			"icon_class" : "icon-download-alt",
+			"color"      : "orange",
+			"link"       : "https://raw.github.com/stolksdorf/Paintjob/master/paintjob.compiled.html",
+			"tooltip"    : "Get Production Version"
+		},*/
+		{
+			"icon_class" : "icon-home",
+			"color"      : "red",
+			"link"       : "https://github.com/stolksdorf",
+			"tooltip"    : "Check out more cool things"
+		}
+
+	],
+}
