@@ -6,10 +6,11 @@ Dom.js is a light-weight DOM node creation library inspired by [Facebook's React
 # How to use
 Just include the lib and anywhere you need to create DOM elements in just Javascript use Dom.js. The `DOM()` takes as many arguments as you want, but the first is always an attributes object for your element. The rest can be either text nodes or other calls to `DOM()`.
 
+You can use React's live [JSX Compiler](http://facebook.github.io/react/jsx-compiler.html) to help you convert your exsisting HTML into this format.
+
 	var hw = DOM.div({class:'cool_cssClass'}, "Hello ", DOM.span({style:"font-size:3em"}, 'World'));
 	$(example).append(hw);
 
-You can use React's live [JSX Compiler](http://facebook.github.io/react/jsx-compiler.html) to help you convert your exsisting HTML into this format.
 
 # Examples
 **Kitten Linker**
