@@ -25,19 +25,13 @@
 			"color"      : "green",
 			"link"       : "https://github.com/stolksdorf/Domjs/fork",
 			"tooltip"    : "Fork on Github"
-		},/*
+		},
 		{
 			"icon_class" : "icon-code",
 			"color"      : "steel",
-			"link"       : "https://raw.github.com/stolksdorf/Paintjob/master/paintjob.local.html",
-			"tooltip"    : "View Raw"
+			"link"       : "https://raw.github.com/stolksdorf/Domjs/master/dom.js",
+			"tooltip"    : "Get the code"
 		},
-		{
-			"icon_class" : "icon-download-alt",
-			"color"      : "orange",
-			"link"       : "https://raw.github.com/stolksdorf/Paintjob/master/paintjob.compiled.html",
-			"tooltip"    : "Get Production Version"
-		},*/
 		{
 			"icon_class" : "icon-home",
 			"color"      : "red",
