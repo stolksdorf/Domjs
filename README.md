@@ -12,12 +12,14 @@ You can use React's live [JSX Compiler](http://facebook.github.io/react/jsx-comp
 
 # Examples
 Kitten Linker
+
 	var kittens = DOM.a({href:'http://placekitten.com', target:'_blank'},
 		DOM.img({src:'http://placekitten.com/200/300'})
 	);
 	$(example).append(kittens);
 
 Simple Form
+
 	DOM.form({action:"demo_form.asp"},
 		"First name: ", DOM.input({type:"text", name:"first_name"}), DOM.br(),
 		"Last name: ", DOM.input({type:"text", name:"last_name"}), DOM.br(),
